@@ -14,6 +14,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const TARGET_DATE = new Date("2026-11-04T10:30:00+05:30").getTime();
 
@@ -223,13 +224,13 @@ export default function Hero() {
 
           <div className="hero-actions">
 
-            <a
-              href="#register"
+            <Link
+              to="/register"
               className="hero-primary"
             >
               START YOUR JOURNEY
               <ArrowRight size={16} />
-            </a>
+            </Link>
 
             <a
               href="#rounds"

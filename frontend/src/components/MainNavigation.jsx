@@ -11,6 +11,7 @@ import {
   Sparkles,
   Trophy,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const navItems = [
   { label: "HOME", icon: Home },
@@ -50,10 +51,10 @@ export default function MainNavigation() {
         </nav>
 
         <div className="dex-nav-register">
-          <a href="#register">
+          <Link to="/register">
             REGISTER NOW
             <ChevronRight size={17} />
-          </a>
+          </Link>
         </div>
 
         <button className="dex-mobile-menu">

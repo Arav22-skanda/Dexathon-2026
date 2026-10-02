@@ -39,6 +39,13 @@ export default function Home() {
         {/* HELPDEX / FAQ */}
         <HelpDex />
       </main>
+
+      {/* SITE FOOTER */}
+      <footer className="site-footer">
+        <span className="site-footer-title">DEXATHON 2026</span>
+        <span className="site-footer-credit">Developed by MCA</span>
+        <span className="site-footer-institute">Sathyabama Institute of Science and Technology</span>
+      </footer>
     </>
   );
 }

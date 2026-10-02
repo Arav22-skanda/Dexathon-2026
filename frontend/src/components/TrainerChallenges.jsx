@@ -5,6 +5,7 @@ import {
   ArrowUpRight,
   Zap,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 import "./TrainerChallenges.css";
 
@@ -137,10 +138,10 @@ export default function TrainerChallenges() {
             worth remembering.
           </p>
 
-          <a href="#register">
+          <Link to="/register">
             START YOUR QUEST
             <ArrowUpRight size={15} />
-          </a>
+          </Link>
 
         </div>
 
